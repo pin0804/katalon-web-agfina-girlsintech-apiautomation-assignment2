@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Posts,,,,2023-08-14 00:17:25,2023-08-14 00:17:32,7.396s,PASSED
+,,,,,,,
+Test Cases/TC-Posts/TC-GET-List posts,,,,2023-08-14 00:17:25,2023-08-14 00:17:30,4.628s,PASSED
+"sendRequestAndVerify(findTestObject(""posts/GET-List posts""))",,,,2023-08-14 00:17:26,2023-08-14 00:17:29,3.776s,PASSED
+"sendRequestAndVerify(findTestObject(""posts/GET-Single post""))",,,,2023-08-14 00:17:29,2023-08-14 00:17:30,0.463s,PASSED
+,,,,,,,
+Test Cases/TC-Posts/TC-POST-Posts,,,,2023-08-14 00:17:30,2023-08-14 00:17:31,1.426s,PASSED
+"sendRequestAndVerify(findTestObject(""posts/POST-Posts""))",,,,2023-08-14 00:17:30,2023-08-14 00:17:31,1.258s,PASSED
+,,,,,,,
+Test Cases/TC-Posts/TC-DELETE-Posts,,,,2023-08-14 00:17:31,2023-08-14 00:17:32,1.048s,PASSED
+"sendRequestAndVerify(findTestObject(""posts/DELETE-Posts""))",,,,2023-08-14 00:17:31,2023-08-14 00:17:32,0.869s,PASSED
