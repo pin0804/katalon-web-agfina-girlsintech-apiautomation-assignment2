@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-Comments" time="6.796" tests="3" failures="0" errors="0">
+   <testsuite name="TS-Comments" tests="3" failures="0" errors="0" time="6.796" skipped="0" timestamp="2023-08-14 01:17:10" hostname="agfinaaliarahma - 192.168.1.34" id="Test Suites/EP2-Comments/TS-Comments">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-apiautomation-assignment2/Reports/20230814_011707/EP2-Comments/TS-Comments/20230814_011707"/>
+         <property name="logFiles" value="/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-apiautomation-assignment2/Reports/20230814_011707/EP2-Comments/TS-Comments/20230814_011707/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="agfinaaliarahma - 192.168.1.34"/>
+         <property name="hostAddress" value="192.168.1.34"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+      </properties>
+      <testcase name="Test Cases/TC-Comments/TC-GET-List Comments" time="4.139" classname="Test Cases/TC-Comments/TC-GET-List Comments" status="PASSED">
+         <system-out><![CDATA[2023-08-14 01:17:10 - [TEST_CASE][PASSED] - Test Cases/TC-Comments/TC-GET-List Comments: Test Cases/TC-Comments/TC-GET-List Comments
+
+2023-08-14 01:17:10 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Comments/GET-List comments")): Send request and verify the response successfully
+
+2023-08-14 01:17:12 - [MESSAGE][INFO] - HAR: /Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-apiautomation-assignment2/Reports/20230814_011707/EP2-Comments/TS-Comments/20230814_011707/requests/main/0.har
+
+2023-08-14 01:17:12 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].id", 1): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].name", "id labore ex et quam laborum"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].email", "Eliseo@gardner.biz"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].body", "laudantium enim quasi est quidem magnam voluptate ipsam eos
+tempora quo necessitatibus
+dolor quam autem quasi
+reiciendis et nam sapiente accusantium"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].id", 2): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].name", "quo vero reiciendis velit similique earum"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].email", "Jayne_Kuhic@sydney.com"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].body", "est natus enim nihil est dolore omnis voluptatem numquam
+et omnis occaecati quod ullam at
+voluptatem error expedita pariatur
+nihil sint nostrum voluptatem reiciendis et"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].id", 3): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].name", "odio adipisci rerum aut animi"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].email", "Nikita@garfield.biz"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].body", "quia molestiae reprehenderit quasi aspernatur
+aut expedita occaecati aliquam eveniet laudantium
+omnis quibusdam delectus saepe quia accusamus maiores nam est
+cum et ducimus et vero voluptates excepturi deleniti ratione"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].id", 4): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].name", "alias odio sit"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].email", "Lew@alysha.tv"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].body", "non et atque
+occaecati deserunt quas accusantium unde odit nobis qui voluptatem
+quia voluptas consequuntur itaque dolor
+et qui rerum deleniti ut occaecati"): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].id", 5): Verify element property value successfully
+
+2023-08-14 01:17:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].name", "vero eaque aliquid doloribus et culpa"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].email", "Hayden@althea.biz"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].body", "harum non quasi et ratione
+tempore iure ex voluptates in ratione
+harum architecto fugit inventore cupiditate
+voluptates magni quo et"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].postId", 2): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].id", 6): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].name", "et fugit eligendi deleniti quidem qui sint nihil autem"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].email", "Presley.Mueller@myrl.com"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[5].body", "doloribus at sed quis culpa deserunt consectetur qui praesentium
+accusamus fugiat dicta
+voluptatem rerum ut voluptate autem
+voluptatem repellendus aspernatur dolorem in"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].postId", 2): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].id", 7): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].name", "repellat consequatur praesentium vel minus molestias voluptatum"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].email", "Dallas@ole.me"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[6].body", "maiores sed dolores similique labore et inventore et
+quasi temporibus esse sunt id et
+eos voluptatem aliquam
+aliquid ratione corporis molestiae mollitia quia et magnam dolor"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].postId", 2): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].id", 8): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].name", "et omnis dolorem"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].email", "Mallory_Kunze@marie.org"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[7].body", "ut voluptatem corrupti velit
+ad voluptatem maiores
+et nisi velit vero accusamus maiores
+voluptates quia aliquid ullam eaque"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].postId", 2): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].id", 9): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].name", "provident id voluptas"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].email", "Meghan_Littel@rene.us"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[8].body", "sapiente assumenda molestiae atque
+adipisci laborum distinctio aperiam et ab ut omnis
+et occaecati aspernatur odit sit rem expedita
+quas enim ipsam minus"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].postId", 2): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].id", 10): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].name", "eaque et deleniti atque tenetur ut quo ut"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].email", "Carmen_Keeling@caroline.name"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[9].body", "voluptate iusto quis nobis reprehenderit ipsum amet nulla
+quia quas dolores velit et non
+aut quia necessitatibus
+nostrum quaerat nulla et accusamus nisi facilis"): Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-08-14 01:17:13 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-08-14 01:17:13 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Comments/GET-Single comments")): Send request and verify the response successfully
+
+2023-08-14 01:17:14 - [MESSAGE][INFO] - HAR: /Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-apiautomation-assignment2/Reports/20230814_011707/EP2-Comments/TS-Comments/20230814_011707/requests/main/1.har
+
+2023-08-14 01:17:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].id", 1): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].name", "id labore ex et quam laborum"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].email", "Eliseo@gardner.biz"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].body", "laudantium enim quasi est quidem magnam voluptate ipsam eos
+tempora quo necessitatibus
+dolor quam autem quasi
+reiciendis et nam sapiente accusantium"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].id", 2): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].name", "quo vero reiciendis velit similique earum"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].email", "Jayne_Kuhic@sydney.com"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[1].body", "est natus enim nihil est dolore omnis voluptatem numquam
+et omnis occaecati quod ullam at
+voluptatem error expedita pariatur
+nihil sint nostrum voluptatem reiciendis et"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].id", 3): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].name", "odio adipisci rerum aut animi"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].email", "Nikita@garfield.biz"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[2].body", "quia molestiae reprehenderit quasi aspernatur
+aut expedita occaecati aliquam eveniet laudantium
+omnis quibusdam delectus saepe quia accusamus maiores nam est
+cum et ducimus et vero voluptates excepturi deleniti ratione"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].id", 4): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].name", "alias odio sit"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].email", "Lew@alysha.tv"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[3].body", "non et atque
+occaecati deserunt quas accusantium unde odit nobis qui voluptatem
+quia voluptas consequuntur itaque dolor
+et qui rerum deleniti ut occaecati"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].postId", 1): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].id", 5): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].name", "vero eaque aliquid doloribus et culpa"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].email", "Hayden@althea.biz"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[4].body", "harum non quasi et ratione
+tempore iure ex voluptates in ratione
+harum architecto fugit inventore cupiditate
+voluptates magni quo et"): Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-08-14 01:17:14 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Comments/TC-DELETE-Comments" time="1.261" classname="Test Cases/TC-Comments/TC-DELETE-Comments" status="PASSED">
+         <system-out><![CDATA[2023-08-14 01:17:14 - [TEST_CASE][PASSED] - Test Cases/TC-Comments/TC-DELETE-Comments: Test Cases/TC-Comments/TC-DELETE-Comments
+
+2023-08-14 01:17:14 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Comments/DELETE-Comments")): Send request and verify the response successfully
+
+2023-08-14 01:17:15 - [MESSAGE][INFO] - HAR: /Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-apiautomation-assignment2/Reports/20230814_011707/EP2-Comments/TS-Comments/20230814_011707/requests/main/2.har
+
+2023-08-14 01:17:15 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-08-14 01:17:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-08-14 01:17:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-08-14 01:17:15 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-08-14 01:17:15 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-08-14 01:17:15 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Comments/TC-POST-Comments" time="1.166" classname="Test Cases/TC-Comments/TC-POST-Comments" status="PASSED">
+         <system-out><![CDATA[2023-08-14 01:17:15 - [TEST_CASE][PASSED] - Test Cases/TC-Comments/TC-POST-Comments: Test Cases/TC-Comments/TC-POST-Comments
+
+2023-08-14 01:17:16 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Comments/POST-Comments")): Send request and verify the response successfully
+
+2023-08-14 01:17:16 - [MESSAGE][INFO] - HAR: /Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-apiautomation-assignment2/Reports/20230814_011707/EP2-Comments/TS-Comments/20230814_011707/requests/main/3.har
+
+2023-08-14 01:17:16 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2023-08-14 01:17:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "postId", 8): Verify element property value successfully
+
+2023-08-14 01:17:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "agfina"): Verify element property value successfully
+
+2023-08-14 01:17:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "email", "agfina@testkatalon.com"): Verify element property value successfully
+
+2023-08-14 01:17:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "body", "hi gonna check for post method"): Verify element property value successfully
+
+2023-08-14 01:17:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-08-14 01:17:17 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-08-14 01:17:17 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-08-14 01:17:17 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-14 01:17:10 - [TEST_SUITE][PASSED] - TS-Comments: Test Cases/TC-Comments/TC-POST-Comments]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

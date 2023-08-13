@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Comments,,,,2023-08-14 01:17:10,2023-08-14 01:17:17,6.796s,PASSED
+,,,,,,,
+Test Cases/TC-Comments/TC-GET-List Comments,,,,2023-08-14 01:17:10,2023-08-14 01:17:14,4.139s,PASSED
+"sendRequestAndVerify(findTestObject(""Comments/GET-List comments""))",,,,2023-08-14 01:17:10,2023-08-14 01:17:13,2.803s,PASSED
+"sendRequestAndVerify(findTestObject(""Comments/GET-Single comments""))",,,,2023-08-14 01:17:13,2023-08-14 01:17:14,1.056s,PASSED
+,,,,,,,
+Test Cases/TC-Comments/TC-DELETE-Comments,,,,2023-08-14 01:17:14,2023-08-14 01:17:15,1.261s,PASSED
+"sendRequestAndVerify(findTestObject(""Comments/DELETE-Comments""))",,,,2023-08-14 01:17:14,2023-08-14 01:17:15,1.119s,PASSED
+,,,,,,,
+Test Cases/TC-Comments/TC-POST-Comments,,,,2023-08-14 01:17:15,2023-08-14 01:17:17,1.166s,PASSED
+"sendRequestAndVerify(findTestObject(""Comments/POST-Comments""))",,,,2023-08-14 01:17:16,2023-08-14 01:17:17,1.023s,PASSED
