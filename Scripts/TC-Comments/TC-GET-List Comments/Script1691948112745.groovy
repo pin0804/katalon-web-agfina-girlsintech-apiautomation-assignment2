@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WS.sendRequestAndVerify(findTestObject('Comments/GET-List comments'))
 
+WS.sendRequestAndVerify(findTestObject('Comments/GET-Single comments'))
+
