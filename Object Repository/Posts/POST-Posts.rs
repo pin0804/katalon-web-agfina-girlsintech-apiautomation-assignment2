@@ -56,6 +56,9 @@ WS.verifyResponseStatusCode(response, 201)
 
 assertThat(response.getStatusCode()).isEqualTo(201)
 
-assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))</verificationScript>
+assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))
+WS.verifyElementPropertyValue(response, 'userId', 1)
+WS.verifyElementPropertyValue(response, 'title', 'test post api')
+WS.verifyElementPropertyValue(response, 'body', 'hi check status code 201')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
