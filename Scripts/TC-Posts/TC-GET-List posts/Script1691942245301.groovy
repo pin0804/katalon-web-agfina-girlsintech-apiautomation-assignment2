@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WS.sendRequestAndVerify(findTestObject('posts/GET-List posts'))
 
+WS.sendRequestAndVerify(findTestObject('posts/GET-Single post'))
+
